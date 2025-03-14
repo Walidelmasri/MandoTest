@@ -15,15 +15,16 @@ public class ReportsController : ControllerBase
         _connectionString = configuration.GetConnectionString("DefaultConnection");
     }
 
-    [HttpGet("class-report")]
-    public async Task<IActionResult> GetClassReport()
+[HttpGet("class-report")]
+public async Task<IActionResult> GetClassReport()
+{
+    using (var connection = new SqlConnection(_connectionString))
     {
-        using (var connection = new SqlConnection(_connectionString))
-        {
-            var results = await connection.QueryAsync<ClassReport>(
-                "EXEC ClassRegistrationReport");
-            return Ok(results);
-        }
+        var results = await connection.QueryAsync<ClassReport>(
+            "EXEC ClassRegistrationReport");
+        return Ok(results);
     }
+}
+
 }
 

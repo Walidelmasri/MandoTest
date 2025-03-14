@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MandoTestAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b25e6b8a96a4d277e032d9714e59463227c9ff11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b974e39b975a8750079b291569e378ce98c4f875")]
 [assembly: System.Reflection.AssemblyProductAttribute("MandoTestAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MandoTestAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

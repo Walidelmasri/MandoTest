@@ -1,0 +1,6 @@
+@MandoTestAPI_HostAddress = http://localhost:5081
+
+GET {{MandoTestAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
